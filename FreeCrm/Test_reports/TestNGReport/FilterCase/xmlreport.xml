@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="50.720544">
+<testcase classname="Filter the case" name="User filter the case using single parameter row" time="19.135615">
+<system-out><![CDATA[Given User navigates to the login page to the FreeCRM.......................passed
+When User enter the username and password...................................passed
+Then User should logged in and should be on the home page...................passed
+Given User should click on show filter......................................passed
+When User select title, operator and value and click filter.................passed
+Then User should see that particular filtered cases.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Filter the case" name="User clear filters" time="31.584929">
+<system-out><![CDATA[Given User navigates to the login page to the FreeCRM.......................passed
+When User enter the username and password...................................passed
+Then User should logged in and should be on the home page...................passed
+Given User should see filtered cases........................................passed
+When User click on clear....................................................passed
+Then User should see cases dashboard page...................................passed
+]]></system-out>
+</testcase>
+</testsuite>

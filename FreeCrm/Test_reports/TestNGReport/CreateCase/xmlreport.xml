@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="48.188575">
+<testcase classname="Create a case" name="User fills the required fields" time="12.413912">
+<system-out><![CDATA[Given User navigates to the login page......................................passed
+When User logs in with username and password................................passed
+Then User should login and should be on home page...........................passed
+When User enters title and clicks on save...................................passed
+Then User should see the cases on the dashboard.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Create a case" name="User does not fills the required fields" time="8.310921">
+<system-out><![CDATA[Given User navigates to the login page......................................passed
+When User logs in with username and password................................passed
+Then User should login and should be on home page...........................passed
+When User enters contact and clicks on save.................................passed
+Then User should see a error message........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Create a case" name="User enters valid data in the fields" time="15.480567">
+<system-out><![CDATA[Given User navigates to the login page......................................passed
+When User logs in with username and password................................passed
+Then User should login and should be on home page...........................passed
+When User enters tile, description, identifier and clicks on save...........passed
+Then User should see the case on the cases dashboard........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Create a case" name="User cancel the case" time="11.983175">
+<system-out><![CDATA[Given User navigates to the login page......................................passed
+When User logs in with username and password................................passed
+Then User should login and should be on home page...........................passed
+When User enters the fields such as title, access, assigned to, contact, company, deal, type, deadline, tags, priority, status and clicks on cancel.passed
+Then User should see case dashboard page....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

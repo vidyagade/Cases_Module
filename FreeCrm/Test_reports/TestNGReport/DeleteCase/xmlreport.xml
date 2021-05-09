@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="20.122358">
+<testcase classname="Delete a case" name="User delete a case" time="9.507623">
+<system-out><![CDATA[Given User navigates to the login page of freecrm...........................passed
+When User logs in with username and password to freecrm.....................passed
+Then User should login and should be on home page of freecrm................passed
+When User select particular case and click on delete........................passed
+Then User should see case in bin............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Delete a case" name="User delete multiple cases" time="10.614735">
+<system-out><![CDATA[Given User navigates to the login page of freecrm...........................passed
+When User logs in with username and password to freecrm.....................passed
+Then User should login and should be on home page of freecrm................passed
+When User select multiple cases and clicks on delete........................passed
+Then User should see cases in bin...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

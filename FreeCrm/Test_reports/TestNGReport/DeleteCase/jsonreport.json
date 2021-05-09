@@ -1,0 +1,182 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User is Logged In of freecrm",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4182757700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to the login page of freecrm",
+            "match": {
+              "location": "DeleteCase.user_navigates_to_the_login_page_of_freecrm()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1387120500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User logs in with username and password to freecrm",
+            "match": {
+              "location": "DeleteCase.user_logs_in_with_username_and_password_to_freecrm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1097712500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should login and should be on home page of freecrm",
+            "match": {
+              "location": "DeleteCase.user_should_login_and_should_be_on_home_page_of_freecrm()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "User delete a case",
+        "description": "",
+        "id": "delete-a-case;user-delete-a-case",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1560664600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User select particular case and click on delete",
+            "match": {
+              "location": "DeleteCase.user_select_particular_case_and_click_on_delete()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1279367400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should see case in bin",
+            "match": {
+              "location": "DeleteCase.user_should_see_case_in_bin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@delete1"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User is Logged In of freecrm",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2913631200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to the login page of freecrm",
+            "match": {
+              "location": "DeleteCase.user_navigates_to_the_login_page_of_freecrm()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1170357000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User logs in with username and password to freecrm",
+            "match": {
+              "location": "DeleteCase.user_logs_in_with_username_and_password_to_freecrm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1112069700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should login and should be on home page of freecrm",
+            "match": {
+              "location": "DeleteCase.user_should_login_and_should_be_on_home_page_of_freecrm()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "User delete multiple cases",
+        "description": "",
+        "id": "delete-a-case;user-delete-multiple-cases",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4043022200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User select multiple cases and clicks on delete",
+            "match": {
+              "location": "DeleteCase.user_select_multiple_cases_and_clicks_on_delete()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1375655100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should see cases in bin",
+            "match": {
+              "location": "DeleteCase.user_should_see_cases_in_bin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@delete2"
+          }
+        ]
+      }
+    ],
+    "name": "Delete a case",
+    "description": "",
+    "id": "delete-a-case",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/DeleteCase.feature"
+  }
+]

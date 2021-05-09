@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.517726">
+<testcase classname="Edit a case" name="User edit the case" time="14.517726">
+<system-out><![CDATA[Given User navigates to the login page of FreeCRM...........................passed
+When User logs in with username and password in FreeCRM.....................passed
+Then User should login and should be on home page of FreeCRM................passed
+When User select particular case and click on edit..........................passed
+Then User should edit case and click on save................................passed
+And User should able to see edited case.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

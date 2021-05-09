@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="100.136941">
+<testcase classname="Invalid Testcases" name="User fills invalid data in title field" time="19.031672">
+<failure message="java.lang.AssertionError: expected [true] but found [false]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:44)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:54)&#13;&#10;&#9;at StepDefinition.InvalidCase.user_should_see_a_error_message_and_case_should_not_create(InvalidCase.java:78)&#13;&#10;&#9;at ✽.Then User should see a error message and case should not create(src/test/resources/Features/InvalidCases.feature:12)&#13;&#10;"><![CDATA[Given User navigates to the login page of the freecrm.......................passed
+When User put his username and password.....................................passed
+Then User should logged in and should be on home page of the freecrm........passed
+When User enters invalid data in title and click on save....................passed
+Then User should see a error message and case should not create.............failed
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at StepDefinition.InvalidCase.user_should_see_a_error_message_and_case_should_not_create(InvalidCase.java:78)
+	at ✽.Then User should see a error message and case should not create(src/test/resources/Features/InvalidCases.feature:12)
+]]></failure>
+</testcase>
+<testcase classname="Invalid Testcases" name="User fills invalid data in company field" time="39.971133">
+<failure message="java.lang.AssertionError: expected [true] but found [false]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:44)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:54)&#13;&#10;&#9;at StepDefinition.InvalidCase.user_should_see_error_message_and_case_should_not_be_create(InvalidCase.java:105)&#13;&#10;&#9;at ✽.Then User should see error message and case should not be create(src/test/resources/Features/InvalidCases.feature:17)&#13;&#10;"><![CDATA[Given User navigates to the login page of the freecrm.......................passed
+When User put his username and password.....................................passed
+Then User should logged in and should be on home page of the freecrm........passed
+When User enters invalid data in company and click on save..................passed
+Then User should see error message and case should not be create............failed
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at StepDefinition.InvalidCase.user_should_see_error_message_and_case_should_not_be_create(InvalidCase.java:105)
+	at ✽.Then User should see error message and case should not be create(src/test/resources/Features/InvalidCases.feature:17)
+]]></failure>
+</testcase>
+<testcase classname="Invalid Testcases" name="User fills invalid data in contact field" time="41.134136">
+<failure message="java.lang.AssertionError: expected [true] but found [false]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:44)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:54)&#13;&#10;&#9;at StepDefinition.InvalidCase.user_should_see_error_message_and_case_should_not_be_create_with_that_contact(InvalidCase.java:134)&#13;&#10;&#9;at ✽.Then User should see error message and case should not be create with that contact(src/test/resources/Features/InvalidCases.feature:22)&#13;&#10;"><![CDATA[Given User navigates to the login page of the freecrm.......................passed
+When User put his username and password.....................................passed
+Then User should logged in and should be on home page of the freecrm........passed
+When User enters invalid data in contact and click on save..................passed
+Then User should see error message and case should not be create with that contact.failed
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at StepDefinition.InvalidCase.user_should_see_error_message_and_case_should_not_be_create_with_that_contact(InvalidCase.java:134)
+	at ✽.Then User should see error message and case should not be create with that contact(src/test/resources/Features/InvalidCases.feature:22)
+]]></failure>
+</testcase>
+</testsuite>

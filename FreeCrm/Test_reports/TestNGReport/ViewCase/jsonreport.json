@@ -1,0 +1,97 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User is Logs In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3705764700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to login page of FreeCRM",
+            "match": {
+              "location": "ViewCase.user_navigates_to_login_page_of_FreeCRM()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1267067900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters his username and password",
+            "match": {
+              "location": "ViewCase.user_enters_his_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1346480300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should login and be on home page of FreeCRM",
+            "match": {
+              "location": "ViewCase.user_should_login_and_be_on_home_page_of_FreeCRM()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "User view the case",
+        "description": "",
+        "id": "view-a-case;user-view-the-case",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3077087500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User select particular case and click on view",
+            "match": {
+              "location": "ViewCase.user_select_particular_case_and_click_on_view()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 767071200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should see that case",
+            "match": {
+              "location": "ViewCase.user_should_see_that_case()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@view"
+          }
+        ]
+      }
+    ],
+    "name": "view a case",
+    "description": "",
+    "id": "view-a-case",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/ViewCase.feature"
+  }
+]

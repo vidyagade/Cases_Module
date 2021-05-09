@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="StepDefinition.DeleteCase">
+        <methods>
+          <include name="user_logs_in_with_username_and_password_to_freecrm"/>
+          <include name="user_should_login_and_should_be_on_home_page_of_freecrm"/>
+          <include name="user_should_see_cases_in_bin"/>
+          <include name="user_select_multiple_cases_and_clicks_on_delete"/>
+        </methods>
+      </class> <!-- StepDefinition.DeleteCase -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
